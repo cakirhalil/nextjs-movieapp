@@ -24,3 +24,6 @@ Proje yerel makinenizde çalıştırılmak üzere aşağıdaki adımları takip 
 
 ```bash
 git clone https://github.com/cakirhalil/nextjs-movieapp.git
+```
+
+![git-movie](https://github.com/user-attachments/assets/122d91fd-1eb7-4394-8abf-e0b368a2d6af)
