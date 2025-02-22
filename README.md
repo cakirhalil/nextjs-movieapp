@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Movie App
 
-## Getting Started
+Bu proje, Next.js kullanarak yapılmış bir film arama uygulamasıdır. Kullanıcılar, film veritabanlarından film bilgilerini arayabilir ve görebilir. Proje, **TMDb API** (The Movie Database API) üzerinden film verilerini çekerek kullanıcılara film bilgisi sunar.
 
-First, run the development server:
+## Özellikler
+
+- **Film Arama**: Kullanıcılar arama kutusuna film ismi yazarak arama yapabilir.
+- **Film Detayları**: Her film için detaylı bilgi, posterler ve tanıtımlar görüntülenebilir.
+- **Popüler Filmler**: Ana sayfada popüler filmler listelenir.
+- **Dark-Mode**: Karanlık ve aydınlık tema seçeneği sunar.
+
+## Teknolojiler
+
+Bu projede şu teknolojiler kullanılmıştır:
+- **Next.js**: React tabanlı bir framework olup, sunucu tarafı rendering (SSR) ve statik site üretimi (SSG) için kullanılmıştır.
+- **Tailwind CSS**: Modern ve duyarlı tasarımlar oluşturmak için kullanılan bir CSS framework'üdür.
+- **TMDb API**: Filmlerle ilgili verileri almak için kullanılan bir film veritabanı API'sidir.
+
+## Kurulum
+
+Proje yerel makinenizde çalıştırılmak üzere aşağıdaki adımları takip edebilirsiniz:
+
+1. **Depoyu Klonlayın**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/cakirhalil/nextjs-movieapp.git
